@@ -1,28 +1,30 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        
-
-    
-        {
-            "type": "java",
-            "name": "Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "Main",
-            "request": "launch",
-            "mainClass": "com.moodflix.Main",
-            "projectName": "moodflix",
-            "vmArgs": [
-                "--module-path", "C:/Program Files/Java/javafx-sdk-21.0.7/lib",
-                "--add-modules", "javafx.controls,javafx.fxml"
-            ]
-        }
-    ]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Main (JavaFX)",
+      "request": "launch",
+      "mainClass": "com.moodflix.Main",
+      "vmArgs": "--module-path C:/Progra~1/Java/javafx-sdk-21.0.7/lib --add-modules javafx.controls,javafx.fxml",
+      "env": {
+        "MOODFLIX_DB_PASSWORD": "Pass@1234",
+        "JAVA_FX_LIB": "C:/Program Files/Java/javafx-sdk-21.0.7/lib"
+      },
+      "preLaunchTask": "Build (Maven)"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Main (project)",
+      "request": "launch",
+      "mainClass": "com.moodflix.Main",
+      "projectName": "moodflix"
+    }
+  ]
 }

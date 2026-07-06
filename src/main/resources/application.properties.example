@@ -1,0 +1,22 @@
+# MoodFlix configuration template
+# Copy to application.properties and set values, or use environment variables.
+
+db.host=localhost
+db.port=5432
+db.name=moodflix
+db.user=postgres
+db.password=
+
+# Environment variable overrides (recommended):
+# MOODFLIX_DB_HOST, MOODFLIX_DB_PORT, MOODFLIX_DB_NAME, MOODFLIX_DB_USER, MOODFLIX_DB_PASSWORD
+# MOODFLIX_OMDB_API_KEY, MOODFLIX_UNSPLASH_API_KEY
+
+api.omdb.key=your_omdb_api_key
+api.unsplash.key=your_unsplash_access_key
+
+app.seed.demo.data=true
+app.dev.mode=false
+
+http.connect.timeout.ms=5000
+http.read.timeout.ms=8000
+http.max.retries=2
