@@ -49,7 +49,7 @@ Alternatively, set the database password via env property `MOODFLIX_DB_PASSWORD`
 Choose one of the following methods to launch the application:
 
 ### Option A: The Simplified Batch Script (Recommended for Windows)
-Simply double-click or run [run-moodflix.bat](file:///c:/College+Study/Projects/MoodFlix/Final_MoodFlix/run-moodflix.bat). This script compiles the project and generates a fully portable shaded JAR, launching it automatically:
+Simply double-click or run [run-moodflix.bat](../run-moodflix.bat). This script compiles the project and generates a fully portable shaded JAR, launching it automatically:
 ```powershell
 .\run-moodflix.bat
 ```
