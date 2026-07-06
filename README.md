@@ -301,8 +301,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Abhay Kharat**  
 * [GitHub Profile](https://github.com/iam-abhay)  
-* [LinkedIn Profile](https://linkedin.com/) *(Placeholder)*
-
----
-
-*Developed with care as a professional desktop entertainment application.*
+* [LinkedIn Profile](https://www.linkedin.com/in/abhay-kharat)
